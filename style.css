@@ -1,6 +1,18 @@
+div{
+  margin: 0;
+  padding: 0;
+}
 canvas{
   padding: 0;
   margin: auto;
   display: block;
   width: 1200px;
+}
+.logo{
+  font-family: sans-serif;
+  .font-weight: bolder;
+  margin: auto;
+  font-size: 24px;
+  display: inline-block;
+  text-align: center;
 }
