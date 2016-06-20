@@ -85,3 +85,7 @@ canvas{
 .hidden{
   display: none;
 }
+#score{
+  color: #009688;
+  font-size: 72px;
+}
