@@ -12,12 +12,16 @@
       </h1>
 
     </div>
-    <div class="modal-box">
+    <div class="modal-box" id="start-modal">
       <div class="modal">
         <p>
-          Welcome to Squarerer.
+          <strong class="heading">Welcome to Squarerer. </strong>
           <br />
-          Drag pieces, clear rows, get points.
+          You get three random pieces per turn.
+          <br />
+          You get a point for every square you fill.
+          <br />
+          Completing a row or column clears it.
           <br />
           You lose when you can't fit any of your tiles on the board.
           <br />
@@ -27,10 +31,11 @@
         <div class="button" id="start">Play</div>
       </div>
     </div>
+
     <div class="modal-box hidden" id="restart-modal">
       <div class="modal">
         <p>
-          Your Score:
+          Score:
           <br />
           <strong id="score"></strong>
         </p>
@@ -41,8 +46,18 @@
         <div class="button" id="restart">Restart</div>
       </div>
     </div>
+
+        <div class="score hidden" id="score-zone">
+          Score:
+          <strong id="running-score">0</strong>
+        </div>
+
+
   </br/>
     <canvas style = ></canvas>
+    <footer>
+      Made with &#x2764 by <a href="http://chrisgiri.com">Chris Giri</a>. <a href="http://linkedin.com/in/cjgiri">LinkedIn</a> <a href="http://github.com/cjgiri">GitHub</a>
+    </footer>
 
     <script type="application/javascript" src="lib/bundle.js"></script>
   </body>
