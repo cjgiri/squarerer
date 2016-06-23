@@ -97,7 +97,7 @@ footer a:hover{
   display: none;
 }
 .score{
-  position: fixed;
+  position: absolute;
   border: 2.5px solid #424242;
   padding: 5px;
   border-radius: 1px;
