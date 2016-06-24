@@ -16,7 +16,9 @@ span, article, footer, time, small {
   background: transparent;
   font-family: sans-serif;
 }
-
+a:hover{
+  cursor: pointer;
+}
 body {
     background-image: url("assets/art/maze.png");
     background-color: #cccccc;
@@ -30,7 +32,11 @@ canvas{
   margin: auto;
   display: block;
   width: 1200px;
+  cursor: pointer;;
 }
+/*.grabbing{
+  cursor: -webkit-grabbing;
+}*/
 footer{
   margin-top: 5px;
   text-align: center;
@@ -98,7 +104,6 @@ footer a:hover{
 }
 .score{
   position: absolute;
-  border: 2.5px solid #424242;
   padding: 5px;
   border-radius: 1px;
   left: calc(50% - 59px);
