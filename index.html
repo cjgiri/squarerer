@@ -34,14 +34,32 @@
 
     <div class="modal-box hidden" id="restart-modal">
       <div class="modal">
-        <p>
-          Score:
+        <section class="score-show group">
+
+        <section class="score-detail">
+          <strong>Your Score</strong>
           <br />
           <strong id="score"></strong>
-        </p>
-        <p>
+        </br>
+          <input id="inits" type="text" placeholder="Your Initials" maxlength="3"/>
+        </br>
+          <div class="small">Submit and Play Again</div>
+        </section>
 
-        </p>
+        <div class="score-detail">
+        <table class="score-list">
+            <strong>High Scores</strong>
+            <tr class="score-header">
+              <td>Name</td>
+              <td>Score</td>
+            </tr>
+
+        </table>
+      </div>
+
+
+
+      </section>
         <br />
         <div class="button" id="restart">Restart</div>
       </div>
